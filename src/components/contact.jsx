@@ -13,7 +13,7 @@ function Contact({icons}) {
                     </h1>
                 </div>
                 <div className = {styles.links}>
-                    <a href="/src/assets/Dylan+Whitehead+Resume.pdf">Resume</a>
+                    <a href="src/assets/Dylan+Whitehead+Resume.pdf">Resume</a>
                 </div>
                 <div className = {styles.icons}>
                     {

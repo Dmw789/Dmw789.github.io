@@ -7,7 +7,7 @@ function AboutMe({name, ramble}) {
         <div className={styles.about_me}>
             <div className= {styles.personal}>
                 <div className={styles.profile}>
-                    <img src="/src/assets/portrait.jpg" alt='portrait'/> 
+                    <img src="src/assets/portrait.jpg" alt='portrait'/> 
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>
@@ -17,7 +17,7 @@ function AboutMe({name, ramble}) {
                         <p>{ramble}</p>
                     </div>
                     <div className={styles.icons}>
-                        <a href="/Dmw789.github.io/src/assets/Dylan+Whitehead+Resume.pdf">Resume</a>
+                        <a href="src/assets/Dylan+Whitehead+Resume.pdf">Resume</a>
                     </div>
                 </div>
             </div>
