@@ -1,7 +1,7 @@
 import React from 'react'
-import Icon from './icon'
+import Icon from '/icon'
 
-import styles from './floater.module.css'
+import styles from '/floater.module.css'
 
 function Floater({icons}) {
     return(

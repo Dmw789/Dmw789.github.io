@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from './overlay.module.css'
+import styles from '/overlay.module.css'
 
 function Overlay({info}) {
     return(

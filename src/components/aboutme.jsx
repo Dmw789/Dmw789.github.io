@@ -1,13 +1,13 @@
 import React from 'react'
 
-import styles from './aboutme.module.css'
+import styles from '/aboutme.module.css'
 
 function AboutMe({name, ramble}) {
     return(
         <div className={styles.about_me}>
             <div className= {styles.personal}>
                 <div className={styles.profile}>
-                    <img src="./src/assets/portrait.jpg" alt='portrait'/> 
+                    <img src="/src/assets/portrait.jpg" alt='portrait'/> 
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>

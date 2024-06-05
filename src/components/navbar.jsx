@@ -1,6 +1,6 @@
 import React from 'react'
 //import ReactDOM from 'react-dom/client'
-import styles from './navbar.module.css'
+import styles from '/navbar.module.css'
 import { useState, useEffect } from 'react';
 
 

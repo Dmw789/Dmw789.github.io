@@ -4,57 +4,6 @@
     box-sizing:border-box;
     overflow-x: hidden;
 }
-/* 
-
-// <div className={styles.container}>
-//     <div className={styles.projects}>
-//          <Carousel faces={projects}/>
-//     </div>
-//    <div className={styles.title}>
-//         <h1>
-//             Title
-//         </h1>
-//     </div>
-//     <div className={styles.description}>
-//         <p>
-//             Description
-//         </p>
-//     </div>
-// </div>
-
-.container{
-    background-color: blue;
-    width: 80%;
-    height: 50%;
-    display: flex;
-    flex-flow: row wrap;
-    margin: auto;
-    top: 40%;
-}
-
-.projects{
-    background-color: teal;
-    width: 100%;
-    height: 60%
-}
-.title{
-    background-color: purple;
-    height: 30%;
-    width: 50%;
-    text-align: right;
-    display: flex;
-}
-.title h1{
-    background-color: red;
-    width: 80%;
-    margin: auto;
-}
-
-.description{
-    background-color: greenyellow;
-    height: 30%;
-    width: 50%;
-}  */
 
 .page{
     background-color: teal;
@@ -64,8 +13,6 @@
 }
 
 .bg_image{
-    /* background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url('../assets/pg1.gif');
-    background-size:cover; */
     width:100%;
     height: 100%;
     position:absolute;
@@ -74,7 +21,6 @@
     box-shadow: 0 0 6px 4px rgba(0,0,0,0.3);}
 
 .container{
-    /* background-color: blue; */
     width: 50%;
     height: 30%;
     display: flex;
@@ -86,7 +32,6 @@
 }
 
 .info{
-    /* background-color: blanchedalmond; */
     width: 100%;
     height: 60%;
     display: flex;
@@ -95,22 +40,18 @@
 }
 
 .title{
-    /* background-color: aliceblue; */
     width: 50%;
     height: 100%;
     display: flex;
 }
 .title h1{
-    /* background-color:brown; */
     text-align:end;
     margin: auto;
     letter-spacing: 4px;
     margin-right: 10%;
-    /* -webkit-text-stroke: 0.5px black; */
 }
 
 .description{
-    /* background-color: aqua; */
     width: 50%;
     height: 100%;
     display: flex;
@@ -119,10 +60,8 @@
 .description p{
     margin: auto;
     font-size: 1.2rem;
-    /* -webkit-text-stroke: 0.5px black; */
 }
 .projects{
-    /* background-color: red; */
     width: 75%;
     height: 30%;
     margin: auto;
