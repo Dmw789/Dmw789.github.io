@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+}
+
+.about_me{
+    
+    /* background-color: pink; */
+    width: 70%;
+    height: fit-content;
+    max-height: 70%;
+    display: flex;
+    margin: auto;
+    font-family: 'Jost', sans-serif;
+}
+.personal{
+    /* background-color: teal; */
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.personal .profile{
+    /* background-color: darkred; */
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+    display: flex;
+}
+.personal .profile img{
+    object-fit:contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+.personal .description{
+    /* background-color:darkgray; */
+    width:80%;
+    height: fit-content;
+}
+.title{
+    /* background-color: gold; */
+    width:100%;
+    height: 20%;
+}
+.title h1{
+    margin-bottom: 10px;
+    font-size: 34px;
+    overflow: hidden;
+    font-weight:normal;
+    margin-left: 2%;
+}
+.ramble{
+    /* background-color: blue; */
+    margin-left:5%;
+    width:95%;
+    height: 80%;
+}
+.ramble p{
+    font-size:16px;
+    overflow: hidden;
+}
+.personal .icons{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+.icons a{
+    font-size: 16px;
+}

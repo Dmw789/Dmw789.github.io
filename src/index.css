@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.flex_container{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+
+.bg-white{
+    background-color: #FFFFFB;
+}
+.bg-mint-cream{
+    background-color: #F7FFF7;
+}
+.bg-midnight-green{
+    background-color: #1A5760;
+}
+.bg-lemon-chiffon{
+    background-color: #FFF5C2;
+}
+.panel{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+@keyframes revealBottom{
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.reveal{
+    position: relative;
+    animation: 0.8s ease-out 0s 1 revealBottom;
+}
+
+.font-primary{
+    font-family: 'Kanit', sans-serif;
+}
+
+.font-secondary{
+    font-family: 'Jost', sans-serif;
+}
