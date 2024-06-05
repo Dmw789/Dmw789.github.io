@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon from './icon'
 
-import styles from '/contact.module.css'
+import styles from './contact.module.css'
 
 function Contact({icons}) {
     return(

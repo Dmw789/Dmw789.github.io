@@ -1,19 +1,6 @@
 import React from 'react'
-//import ReactDOM from 'react-dom/client'
-import styles from '/navbar.module.css'
+import styles from './navbar.module.css'
 import { useState, useEffect } from 'react';
-
-
-// $(window).scroll(function(){
-//     $('nav').toggleClass('scrolled', $(this).scrollTop() > 100);
-// })
-// const navEle = document.querySelector(".navbar");
-
-// window.addEventListener('scroll', () =>{
-//     if(window.scrollY > 50) {
-//         navEle.classList.add('navbar_scrolled');
-//     }
-// })
 
 function Navbar({headers}) {
 

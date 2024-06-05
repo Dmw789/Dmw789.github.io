@@ -1,7 +1,7 @@
 import React from 'react'
-import Carousel from '/carousel.jsx'
+import Carousel from './carousel.jsx'
 
-import styles from '/projects.module.css'
+import styles from './projects.module.css'
 
 function Projects({projects, highlightId, onChange}) {
     return(

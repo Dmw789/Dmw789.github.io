@@ -2,7 +2,7 @@ import React from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import styles from '/icon.module.css'
+import styles from './icon.module.css'
 
 function Icon({info}) {
     return(

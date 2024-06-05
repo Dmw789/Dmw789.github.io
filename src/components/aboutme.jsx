@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '/aboutme.module.css'
+import styles from './aboutme.module.css'
 
 function AboutMe({name, ramble}) {
     return(

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '/blog.module.css'
+import styles from './blog.module.css'
 
 function Blog({posts}) {
     return(
