@@ -1,12 +1,14 @@
 .icon{
     width: 100%;
     height: 100%;
-    overflow: hidden;
 }
 
 .icon a{
     color: rgba(0,0,0,0.5);
 }
 .icon a:hover{
-    color: rgba(0,0,0,1 );
+    color: rgba(0,0,0,1);
+}
+.icon::-webkit-scrollbar {
+    display: none;
 }

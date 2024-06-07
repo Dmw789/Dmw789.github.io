@@ -6,7 +6,6 @@
 }
 
 .blog{
-    /* background-color: lightblue; */
     width: 70%;
     height: 60%;
     display: flex;
@@ -14,13 +13,11 @@
 }
 
 .snippet{
-    /* background-color: purple; */
     width: 40%;
     height: 100%;
 }
 
 .title{
-    /* background-color: blue; */
     width: 100%;
     height: 20%;
     margin-top: 10%;
@@ -29,14 +26,12 @@
 }
 
 .description{
-    /* background-color: pink; */
     width: 80%;
     height: 70%;
     margin: auto;
 }
 
 .highlight{
-    /* background-color: yellow; */
     width: 50%;
     height: 100%;
     padding: 1%;
@@ -45,14 +40,12 @@
 }
 
 .minibar{
-    /* background-color:red; */
     width: 10%;
     height: 100%;
     overflow: hidden;
 }
 
 .mini{
-    /* background-color: green; */
     width: 80%;
     height: 20%;
     margin: 10%;
@@ -62,7 +55,6 @@
 }
 
 .links{
-    /* background-color: teal; */
     width: 80%;
     height: 20%;
     margin: 10%;

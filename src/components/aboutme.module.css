@@ -6,8 +6,6 @@
 }
 
 .about_me{
-    
-    /* background-color: pink; */
     width: 70%;
     height: fit-content;
     max-height: 70%;
@@ -16,7 +14,6 @@
     font-family: 'Jost', sans-serif;
 }
 .personal{
-    /* background-color: teal; */
     width: 90%;
     height: fit-content;
     margin: auto;
@@ -27,7 +24,6 @@
 }
 
 .personal .profile{
-    /* background-color: darkred; */
     width: 20%;
     height: auto;
     border-radius: 50%;
@@ -41,12 +37,10 @@
     max-height: 100%;
 }
 .personal .description{
-    /* background-color:darkgray; */
     width:80%;
     height: fit-content;
 }
 .title{
-    /* background-color: gold; */
     width:100%;
     height: 20%;
 }
@@ -58,7 +52,6 @@
     margin-left: 2%;
 }
 .ramble{
-    /* background-color: blue; */
     margin-left:5%;
     width:95%;
     height: 80%;
