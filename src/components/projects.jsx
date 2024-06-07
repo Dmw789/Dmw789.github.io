@@ -1,12 +1,16 @@
-import React from 'react'
-import Carousel from './carousel.jsx'
+import React from 'react';
+import Carousel from './carousel.jsx';
 
-import styles from './projects.module.css'
+import styles from './projects.module.css';
 
-function Projects({projects, highlightId, onChange}) {
-    return(
+function Projects({ projects, highlightId, onChange }) {
+    if (projects.length === 0) {
+        return <div>Loading...</div>;
+    }
+
+    return (
         <div className={styles.page}>
-            <img className={styles.bg_image} alt="preview" src={projects[highlightId].preview}/>
+            <img className={styles.bg_image} alt="preview" src={projects[highlightId].preview} />
             <div className={styles.container}>
                 <div className={styles.info}>
                     <div className={styles.title}>
@@ -15,18 +19,17 @@ function Projects({projects, highlightId, onChange}) {
                     <div className={styles.description}>
                         <p>
                             {projects[highlightId].description}
-
-                            <br/>
-                            <a href="">Learn more</a>
+                            <br />
+                            <a href={projects[highlightId].link}>Learn more</a>
                         </p>
                     </div>
                 </div>
                 <div className={styles.projects}>
-                    <Carousel faces={projects} onChange={onChange}/>
+                    <Carousel faces={projects} onChange={onChange} />
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Projects;
