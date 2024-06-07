@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "label": "About This Blog",
+            "link": "",
+            "image": "assets/pg1.png",
+            "description": "abc"
+        },
+        {
+            "label": "The Anti-Gravity Effect",
+            "link": "",
+            "image": "assets/pg1.png",
+            "description": "abc"
+        },
+        {
+            "label": "On Fighting Games and 'Arbitrary' Mechanics",
+            "link": "",
+            "image": "assets/pg1.png",
+            "description": "abc"
+        },
+        {
+            "label": "At Bat For Hard Mode",
+            "link": "",
+            "image": "assets/pg1.png",
+            "description": "abc"
+        }
+    ]
+}
