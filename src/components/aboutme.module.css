@@ -33,6 +33,7 @@
     border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
     display: flex;
+    overflow: hidden;
 }
 .personal .profile img{
     object-fit:contain;
