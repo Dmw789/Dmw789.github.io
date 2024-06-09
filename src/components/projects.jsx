@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from './carousel.jsx';
-
 import styles from './projects.module.css';
 
 function Projects({ projects, highlightId, onChange }) {
@@ -20,7 +20,9 @@ function Projects({ projects, highlightId, onChange }) {
                         <p>
                             {projects[highlightId].description}
                             <br />
-                            <a href={projects[highlightId].link}>Learn more</a>
+                            <Link to={projects[highlightId].link}>
+                                Learn more
+                            </Link>
                         </p>
                     </div>
                 </div>

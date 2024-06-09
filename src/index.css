@@ -12,8 +12,49 @@
     margin: auto;
 }
 
+.project_page{
+    width: 60%;
+    height: auto;
+    margin: auto;
+    font-family: 'Jost', sans-serif;
+}
+
+.project_page h1{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.project_page p{
+    font-size: 1.25rem;
+    line-height: 35px;
+}
+.project_image{
+    padding: 50px 0;
+    width: 80%;
+    margin: auto;
+}
+.project_image img{
+    object-fit: contain;
+    width: 100%;
+}
+.project_image p{
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    font-style:italic;
+}
+.brands {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 100px;
+    height: 200px;
+    justify-content: center;
+}
+
 .bg-white{
-    background-color: #FFFFFB;
+    background-color: #ffffff;
 }
 .bg-mint-cream{
     background-color: #F7FFF7;

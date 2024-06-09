@@ -55,7 +55,7 @@
     width: 50%;
     height: 100%;
     display: flex;
-    -webkit-text-stroke: 0.3px black;
+    font-weight: bold;
 }
 .description p{
     margin: auto;
