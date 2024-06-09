@@ -29,6 +29,14 @@
     font-size: 1.25rem;
     line-height: 35px;
 }
+.project_page ul {
+    list-style-type: disc;
+    display: list-item;
+    padding-left: 20px;
+}
+.project_page li {
+    margin-bottom: 10px;
+}
 .project_image{
     padding: 50px 0;
     width: 80%;

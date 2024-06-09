@@ -1,9 +1,9 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/navbar.jsx';
 import Floater from './components/floater.jsx';
 import Home from './pages/home.jsx';
 import Caveman from './pages/caveman.jsx'
+import Gradual from './pages/gradual.jsx'
 import ScrollToTop from './components/scrollToTop.jsx';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import './index.css';
@@ -23,6 +23,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/caveman" element={<Caveman/>} />
+                <Route path="/gradual" element={<Gradual/>} />
                 {/* Add more project routes here as needed */}
             </Routes>
             <Floater icons={icons} />

@@ -56,7 +56,7 @@ function Caveman() {
                     <img src="assets/brand1.png" alt="Brand 1" />
                     <img src="assets/brand2.png" alt="Brand 2" />
                     <img src="assets/brand3.png" alt="Brand 3" />
-                    <img src="assets/brand4.png" alt="Branf 4" />
+                    <img src="assets/brand4.png" alt="Brand 4" />
                 </div>
                 <p>
                     Wow, now that's what I call business! Can I get a fist bump? (relate to them) But that's enough about us. Let's talk about you. As a key part of our Sales Team, you'll be in charge of:
