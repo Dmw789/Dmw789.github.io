@@ -6,7 +6,7 @@ import '../index.css';
 function Caveman() {
     return (
         <div className="scrolling">
-            <Hero title="Caveman Works a 9-5" subtitle="A 3-D Puzzle Adventure Game" image="assets/cm1.png" />
+            <Hero title="Caveman Works a 9-5" subtitle="A 3-D Puzzle Adventure Game" image="assets/cm3.png" />
             <div className="project_page">
                 <h1>So, You Wanna Join the STTLLM Appliances Inc Team?</h1>
                 <p>
