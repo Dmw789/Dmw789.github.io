@@ -22,15 +22,12 @@ function Home() {
     ];
 
     const name = "Dylan Whitehead, Software Developer";
-    const ramble = `For as long as I can remember, gaming has meant a lot to me. Whether that be connecting with family and friends 
-                    through shared adventures or relishing in moments that meant more than the game itself. As I played more, I found 
-                    an intense admiration for designers who created stories and experiences capable of having such profound impacts on me. 
+    const ramble = `For as long as I can remember, software has meant a lot to me. Whether that be connecting with family and friends 
+                    through shared adventures in gaming or sitting on my own, tinkering around with systems I couldn't yet understand. As I played more, I found 
+                    an intense admiration for designers who created experiences capable of having profound impacts on me. 
                     It was in that admiration that I began recreating my favorite games into new encounters for anybody who would sit and play them. 
                     My life really changed after getting my Bachelor's in Computer Science and working in the software field for the first time.
-                    Whereas before I just wanted to recreate old experiences, I now have the tools and knowledge to create new ones. I believe that 
-                    technical design is the heart of the intense feeling gaming conveys. I've found that just like others helped in creating a 
-                    foundation for myself and my skills, the key to creating incredible games is designing a healthy foundation for its mechanics 
-                    and systems.
+                    Whereas before I just wanted to recreate old experiences, I now had the tools and knowledge to create new ones. I haven't looked back since. 
                     `;
 
     const [projects, setProjects] = useState([]);

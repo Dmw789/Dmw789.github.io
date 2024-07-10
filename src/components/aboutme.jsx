@@ -7,7 +7,7 @@ function AboutMe({name, ramble}) {
         <div className={styles.about_me}>
             <div className= {styles.personal}>
                 <div className={styles.profile}>
-                    <img src="assets/portrait.jpg" alt='portrait'/> 
+                    <img src="assets/portrait2.png" alt='portrait2'/> 
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>

@@ -24,15 +24,17 @@
 }
 
 .personal .profile{
-    width: 20%;
+
     height: auto;
     border-radius: 50%;
     box-shadow: 0 3px 10px rgba(0,0,0,0.5);
     display: flex;
     overflow: hidden;
+    width: 200px; /* Set the width to the desired size */
+    height: 200px; 
 }
 .personal .profile img{
-    object-fit:contain;
+    object-fit:cover;
     max-width: 100%;
     max-height: 100%;
 }
