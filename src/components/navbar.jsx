@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './navbar.module.css'
 import { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Navbar({headers}) {
 
@@ -25,7 +26,7 @@ function Navbar({headers}) {
                 {
                     {headers} = headers.map((header) =>  
                         <li key={header.label}>
-                            <a href={header.link}>{header.label}</a>
+                            <Link to={header.link}>{header.label}</Link>
                         </li>
                     )
                 }

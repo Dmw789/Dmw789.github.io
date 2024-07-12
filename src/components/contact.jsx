@@ -9,11 +9,8 @@ function Contact({icons}) {
             <div className={styles.contact}>
                 <div className={styles.title}>
                     <h1>
-                        Contact Me
+                        Chat With Me
                     </h1>
-                </div>
-                <div className = {styles.links}>
-                    <a href="assets/Dylan+Whitehead+Resume.pdf">Resume</a>
                 </div>
                 <div className = {styles.icons}>
                     {
@@ -23,6 +20,10 @@ function Contact({icons}) {
                         </li>
                         )
                     }
+                </div>
+                <div className = {styles.links}>
+                    <a href="assets/Dylan+Whitehead+Resume.pdf">Resume</a>
+                    <br/>
                 </div>
             </div>
         </div>
