@@ -75,17 +75,26 @@
 }
 
 .icons a {
-    font-size: 16px;
+    font-size: 22px;
 }
 
 @media (max-width: 1680px) {
     .about_me {
-        width: 90%;
+        width: 100%;
         height: fit-content;
-        max-height: 70%;
+        max-height: 100%;
         display: flex;
         margin: auto;
         font-family: 'Jost', sans-serif;
+    }
+    
+    .personal {
+        width: 90%;
+        height: fit-content;
+        margin: auto;
+        display: block;
+        text-align: center;
+        padding: 0;
     }
 
     .personal .profile {
@@ -95,8 +104,7 @@
         overflow: hidden;
         width: 150px;
         height: 150px;
-        margin: auto;
-        margin-bottom: 5%;
+        margin: 25px auto;
     }
 
     .personal .profile img {
@@ -106,9 +114,17 @@
     }
 
     .personal .description {
-        width: 100%;
+
         height: fit-content;
         text-align: center;
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .ramble {
+        margin: 0;
+        width: 95%;
+        height: 80%;
     }
 
     .title {
@@ -121,6 +137,10 @@
         font-size: 24px;
         overflow: hidden;
         font-weight: normal;
-        margin-left: 2%;
+        margin-left: 0;
+    }
+    .personal .icons {
+        margin-left: 0;
+        margin-top: 0;
     }
 }

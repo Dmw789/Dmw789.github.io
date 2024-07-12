@@ -59,3 +59,15 @@
 .title::-webkit-scrollbar {
     display: none;
 }
+
+@media (max-width: 1680px) {
+    .flex_container{
+        width: 80%;
+        min-height: 80%;
+        height: fit-content;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}

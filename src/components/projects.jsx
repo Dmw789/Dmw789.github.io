@@ -1,12 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Carousel from './carousel.jsx';
 import styles from './projects.module.css';
 
 function Projects({ projects, highlightId, onChange }) {
+    const navigate = useNavigate();
+
     if (projects.length === 0) {
         return <div>Loading...</div>;
     }
+
+    const handleButtonClick = () => {
+        navigate(projects[highlightId].link);
+    };
 
     return (
         <div className={styles.page}>
@@ -19,11 +25,12 @@ function Projects({ projects, highlightId, onChange }) {
                     <div className={styles.description}>
                         <p>
                             {projects[highlightId].description}
-                            <br />
-                            <Link to={projects[highlightId].link}>
-                                Learn more
-                            </Link>
                         </p>
+                    </div>
+                    <div className={styles.learnMore}>
+                        <button onClick={handleButtonClick} className={styles.learnMoreButton}>
+                            LEARN MORE
+                        </button>
                     </div>
                 </div>
                 <div className={styles.projects}>
