@@ -90,7 +90,7 @@
 
 .learnMoreButton:hover {
     background-color: #5a4a9d;
-    transform: scale(1.1);
+    transform: scale(1.075);
     border-radius: 40px;
     color: rgb(236, 236, 236);
 }

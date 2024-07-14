@@ -41,13 +41,15 @@ function Blog() {
                 </div>
                 <ul className={styles.thumbnailList}>
                     {posts.map((post, index) => (
-                        <li key={index} className={styles.thumbnailItem}>
-                            <a href={post.url} target="_blank" rel="noopener noreferrer">
-                                <img src={post.thumbnail} alt={post.title} className={styles.thumbnailImage} />
-                            </a>
-                            <a href={post.url} target="_blank" rel="noopener noreferrer" className={styles.postTitle}>
-                                {post.title}
-                            </a>
+                        <li key={index} className={styles.thumbnailContainer}>
+                            <div className={styles.thumbnailItem}>
+                                <a href={post.url} target="_blank" rel="noopener noreferrer">
+                                    <img src={post.thumbnail} alt={post.title} className={styles.thumbnailImage} />
+                                </a>
+                                <a href={post.url} target="_blank" rel="noopener noreferrer" className={styles.postTitle}>
+                                    {post.title}
+                                </a>
+                            </div>
                         </li>
                     ))}
                 </ul>

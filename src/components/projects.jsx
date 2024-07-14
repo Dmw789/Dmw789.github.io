@@ -28,9 +28,12 @@ function Projects({ projects, highlightId, onChange }) {
                         </p>
                     </div>
                     <div className={styles.learnMore}>
-                        <button onClick={handleButtonClick} className={styles.learnMoreButton}>
-                            LEARN MORE
-                        </button>
+                        {projects[highlightId].link != "" &&
+                        (
+                            <button onClick={handleButtonClick} className={styles.learnMoreButton}>
+                                LEARN MORE
+                            </button>
+                        )}
                     </div>
                 </div>
                 <div className={styles.projects}>
