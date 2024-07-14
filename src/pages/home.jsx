@@ -31,7 +31,6 @@ function Home() {
                     `;
 
     const [projects, setProjects] = useState([]);
-    const [posts, setPosts] = useState([]);
     const [highlightId, setHighlightId] = useState(2);
 
     const fetchData = async (url, setter) => {
@@ -46,7 +45,6 @@ function Home() {
 
     useEffect(() => {
         fetchData('/data/projects.json', (data) => setProjects(data.projects));
-        fetchData('/data/posts.json', (data) => setPosts(data.posts));
     }, []);
 
     const highlightIdChange = (change) => {
@@ -66,7 +64,7 @@ function Home() {
                 <Projects projects={projects} highlightId={highlightId} onChange={highlightIdChange} />
             </div>
             <div id="blog" className="panel bg-blog font-primary">
-                <Blog posts={posts} />
+                <Blog/>
             </div>
             <div id="contact" className="panel bg-white font-primary">
                 <Contact icons={icons} />
