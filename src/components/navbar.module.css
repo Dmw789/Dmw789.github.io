@@ -30,7 +30,7 @@
 
 .navbar_scrolled {
     filter: opacity(0.75);
-    height: 60px;
+    height: 30px;
 }
 
 .navbar_scrolled:hover {

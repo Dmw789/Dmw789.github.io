@@ -65,7 +65,7 @@ function Home() {
             <div id="projects" className="panel bg-midnight-green font-primary">
                 <Projects projects={projects} highlightId={highlightId} onChange={highlightIdChange} />
             </div>
-            <div id="blog" className="panel bg-lemon-chiffon font-primary">
+            <div id="blog" className="panel bg-blog font-primary">
                 <Blog posts={posts} />
             </div>
             <div id="contact" className="panel bg-white font-primary">

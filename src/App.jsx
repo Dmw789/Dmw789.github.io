@@ -20,6 +20,7 @@ function App() {
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
             <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300&family=Kanit:wght@300&display=swap" rel="stylesheet" />
+            <link href="https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap" rel="stylesheet"></link>
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/caveman" element={<Caveman/>} />

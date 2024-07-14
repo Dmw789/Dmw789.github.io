@@ -70,14 +70,21 @@
 .bg-midnight-green{
     background-color: #1A5760;
 }
-.bg-lemon-chiffon{
-    background-color: #e6f7e6;
+.bg-blog{
+    background-color:#1d1d27;
+    background-image: url('assets/panelbg.png');
+    background-position: center;
+    background-size:cover;
+    overflow:hidden;
+    filter:contrast(1.1);
 }
+
 .panel{
     width: 100vw;
     height: 100vh;
     display: flex;
 }
+
 @keyframes revealBottom{
     0%{
         transform: translateY(100px);
