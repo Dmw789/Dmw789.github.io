@@ -77,6 +77,7 @@
     background-size:cover;
     overflow:hidden;
     filter:contrast(1.1);
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.5);
 }
 
 .panel{
