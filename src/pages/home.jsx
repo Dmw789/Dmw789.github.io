@@ -13,7 +13,7 @@ function Home() {
         { label: "Dylan Whitehead", link: "#about-me" },
         { label: "Projects", link: "#projects" },
         { label: "Blog", link: "#blog" },
-        { label: "Resume / Contact", link: "#contact" }
+        { label: "Resume / Contact", link: "#contact"}
     ];
 
     const icons = [
@@ -31,7 +31,7 @@ function Home() {
                     `;
 
     const [projects, setProjects] = useState([]);
-    const [highlightId, setHighlightId] = useState(2);
+    const [highlightId, setHighlightId] = useState(1);
 
     const fetchData = async (url, setter) => {
         try {

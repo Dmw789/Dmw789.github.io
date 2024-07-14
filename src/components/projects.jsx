@@ -21,6 +21,7 @@ function Projects({ projects, highlightId, onChange }) {
                 <div className={styles.info}>
                     <div className={styles.title}>
                         <h1>{projects[highlightId].label}</h1>
+                        <p>{projects[highlightId].date}</p>
                     </div>
                     <div className={styles.description}>
                         <p>

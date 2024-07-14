@@ -2,6 +2,7 @@
     "projects": [
         {
             "label": "Do the Lawn",
+            "date": "Apr 2020 - May 2020",
             "link": "",
             "image": "assets/dtl1.png",
             "description": "A chore-based chaos simulator game. Developed in Unreal Engine 4.",
@@ -9,6 +10,7 @@
         },
         {
             "label": "Project Gradual",
+            "date": "Feb 2021 - Oct 2021",
             "link": "/gradual",
             "image": "assets/pg1.png",
             "description": "A 3D racing game inspired by anti-gravity racers of the 90's. Developed in Unreal Engine 4 using C++ in Visual Studio.",
@@ -16,6 +18,7 @@
         },
         {
             "label": "Caveman Works a 9-5",
+            "date": "Nov 2023 - Current",
             "link": "/caveman",
             "image": "assets/cm.png",
             "description": "A new game I'm in the process of creating in C# with Unity. Check back later for more updates!",
@@ -23,6 +26,7 @@
         },
         {
             "label": "Manorbound",
+            "date": "Feb 2021 - May 2021",
             "link": "",
             "image": "assets/mb1.PNG",
             "description": "A 3D horror game where 1-4 players have to go around solving puzzles in order to solve the mystery of the haunted manor. Developed in Unreal Engine 4.",

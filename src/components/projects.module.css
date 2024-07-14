@@ -52,6 +52,10 @@
     text-align:end;
     letter-spacing: 4px;
 }
+.title p{
+    text-align:end;
+    margin-right: 55px;
+}
 
 .description{
     margin-top: 25px;
@@ -126,6 +130,10 @@
         margin: auto;
         margin-top: 15%;
         text-align:center;
+    }
+    .title p{
+        text-align:center;
+        margin: auto;
     }
     .description{
         margin-top: 25px;
